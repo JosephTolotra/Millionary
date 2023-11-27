@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+	
+	
+	<TextView
+android:paddingTop="19dp"
+android:paddingLeft="5dp"
+android:paddingBottom="5dp"
+android:background="?attr/colorPrimary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+android:textSize="20sp"
+		android:textStyle="bold"
+		android:textColor="#ffffff"
+		android:id="@+id/bar"
+        android:text="@string/app_name" 
+		style="@style/Casual"
+	/>
+	
+	
+	
+ <TextView
+
+android:layout_marginTop="9dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	 android:layout_below="@+id/bar"
+		android:textSize="20sp"
+		android:textStyle="bold"
+		android:textColor="?attr/colorPrimary"
+		android:id="@+id/TextView"
+	 android:gravity="center"
+        android:text="QUIZ MADAGASIKARA" 
+style="@style/Casual"
+        />
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+      android:background="@drawable/font"
+		android:layout_below="@+id/TextView"
+	 android:gravity="center"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:layout_centerHorizontal="true"
+		android:gravity="center"
+	>
+	
+    <Button
+android:textStyle="bold"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:text="Hilalao"
+        android:onClick="btn" 
+        android:background="@drawable/ruound"
+        android:id="@+id/btn"
+       style="@style/Casual" />
+<Button
+	android:layout_marginTop="9dp"
+	android:layout_below="@+id/btn"
+android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Isa farany ambony"
+        android:onClick="btn1"
+        android:background="@drawable/ruound"
+        android:id="@+id/btn1"        style="@style/Casual"/>
+ <Button
+	 android:layout_marginTop="9dp"
+	 android:layout_below="@+id/btn1"
+android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Contacteo aho"
+        android:onClick="btn2"
+        android:background="@drawable/ruound" 
+        style="@style/Casual"
+        android:id="@+id/btn2"/>
+ <Button
+   android:textStyle="bold"
+	 android:layout_marginTop="9dp"
+	 android:layout_below="@+id/btn2"
+        android:textColor="#ffffff"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Fanampiana"
+style="@style/Casual"
+        android:onClick="btn3"
+        android:background="@drawable/ruound"
+        android:id="@+id/btn3"/>
+
+ <Button
+   android:textStyle="bold"
+	 android:layout_marginTop="9dp"
+	 android:layout_below="@+id/btn3"
+        android:textColor="#ffffff"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Setting"
+style="@style/Casual"
+        android:onClick="btn5"
+        android:background="@drawable/ruound"
+        android:id="@+id/btn5"/>
+
+ <Button
+	 android:layout_marginTop="9dp"
+	 android:layout_below="@+id/btn5"
+android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hiala(quit)"
+style="@style/Casual"
+        android:onClick="btn4"
+        android:background="@drawable/ruound"
+        android:id="@+id/btn4"/>
+</RelativeLayout>
+</RelativeLayout>

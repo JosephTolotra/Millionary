@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+	<TextView
+android:paddingTop="19dp"
+android:paddingLeft="5dp"
+android:paddingBottom="5dp"
+android:background="?attr/colorPrimary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+android:textSize="20sp"
+		android:textStyle="bold"
+		android:textColor="#ffffff"
+		android:id="@+id/bar2"
+        android:text="@string/app_name" 
+		style="@style/Casual"
+	/>
+
+    <TextView 
+		android:textSize="20sp" 
+		android:textStyle="bold" 
+		android:textColor="?attr/colorPrimary" 
+		android:gravity="center" 
+		android:layout_width="match_parent" android:layout_height="wrap_content"  android:layout_marginTop="10dp"
+android:text="QUIZ MADAGASCAR"  style="@style/BoldMonoSerif"/>
+    <TextView 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="5dp" 
+		android:layout_marginTop="20dp" 
+		android:text="Ampidiro ary ny anaranao" />
+    <EditText 
+		android:id="@+id/et" 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="20dp" 
+		android:layout_marginTop="5dp" 
+		android:layout_marginRight="20dp" 
+   android:textColor="?attr/colorPrimary"
+   android:textStyle="italic"
+		android:hint="Ny anaranao"
+android:textSize="15sp" 
+		android:layout_centerHorizontal="true" 
+		android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone|time"
+ 
+ />
+   
+	<TextView android:textSize="15sp" 
+		android:textStyle="bold" 
+		android:textColor="?attr/colorPrimary" 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="5dp" 
+		android:layout_marginTop="20dp" 
+		android:text="FITSI-DALAO:" />
+	
+    <TextView 
+		android:textStyle="italic" 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="20dp" 
+		android:layout_marginTop="1dp" 
+		android:text="-Valiny iray ihany isam-panotaniana" />
+    <TextView 
+		android:textStyle="italic" 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="20dp" 
+		android:layout_marginTop="1dp" 
+		android:text="-Valiny marina iray mira isa iray" />
+	
+    <TextView 
+		android:textStyle="italic" 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="20dp" 
+		android:layout_marginTop="1dp" 
+		android:text="-Raha mahazo isa 10 ianao de mahazo 5000 ar" />
+	
+    <TextView 
+		android:textStyle="italic" 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="5dp" 
+		android:layout_marginTop="15dp" 
+		android:text="Noho izany:" />
+    <TextView 
+		android:textSize="20sp" 
+		android:textStyle="bold" 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:gravity="center" 
+		android:layout_marginTop="30dp" 
+		android:text="MAHAZOA VITANA TSARA!!"   style="@style/Cursive" />
+	
+    <Button 
+		android:textColor="#ffffff" 
+		android:id="@+id/mainButton" 
+	style="@style/Casual"
+android:textStyle="bold"	android:background="@drawable/button_big_round" 
+		android:layout_width="120dp" 
+		android:layout_height="120dp" 
+		android:layout_marginTop="30dp"
+		android:layout_gravity="center"
+   android:onClick="btd"
+		android:text="Milalao" />
+</LinearLayout>

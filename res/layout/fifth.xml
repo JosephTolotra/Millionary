@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<TextView
+android:paddingTop="19dp"
+android:paddingLeft="5dp"
+android:paddingBottom="5dp"
+android:background="?attr/colorPrimary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+android:textSize="20sp"
+		android:textStyle="bold"
+		android:textColor="#ffffff"
+		android:id="@+id/bar2"
+        android:text="@string/app_name" 
+		style="@style/Casual"
+	/>
+
+<ImageView
+        android:gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/warning"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Non Disponible" />
+<TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="(mbola version beta ity..manasa anao hanao mise a jour Na miandry ny version manaraka..Misaotra Tompoko)" />
+
+</LinearLayout>

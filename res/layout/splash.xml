@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="?attr/colorPrimary"
+    >
+
+    <ImageView
+		android:layout_centerHorizontal="true"
+android:layout_above="@+id/fn"
+android:layout_marginBottom="2dp"
+android:id="@+id/imgr0"
+        android:src="@drawable/quiz"
+        android:layout_width="280dp"
+        android:layout_height="124dp" />
+
+<TextView
+		android:id="@+id/fn"
+		android:layout_centerVertical="true"
+		android:layout_centerHorizontal="true"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+	
+	
+	<TextView
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="10dp"
+		android:layout_marginBottom="10dp"
+		android:id="@+id/fn1"
+        android:text="By Nöcksa(Raval)"
+		android:textSize="10sp"
+		android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+	
+	<ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+		android:layout_marginRight="7dp"
+		android:layout_marginBottom="5dp"
+		android:id="@+id/imgr"
+		android:layout_alignParentRight="true"
+		android:layout_above="@+id/fn1"
+		android:src="@drawable/log"
+		/>
+	<ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+	     	android:layout_marginRight="50dp"
+	     	android:layout_marginBottom="5dp"
+		android:id="@+id/imgr1"
+		android:layout_alignParentRight="true"
+		android:layout_above="@+id/fn1"
+		android:src="@drawable/r"
+	/>
+
+<ProgressBar 
+		android:id="@+id/pbH" 
+		android:layout_above="@+id/fnf"
+		android:layout_width="250dp" 
+		android:layout_height="wrap_content" 
+		android:layout_centerHorizontal="true" 
+		android:progressTint="#ffffff"
+		android:progressBackgroundTint="?attr/colorPrimary"
+		android:layout_marginTop="10dp" 
+		android:max="100" 
+		android:progress="0" 
+		style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"/>
+
+<TextView
+		android:layout_above="@+id/imgr1"
+   android:layout_centerHorizontal="true"
+		android:layout_marginTop="10dp"
+		android:id="@+id/fnf"
+   android:text="Loading....."
+           style="@style/Cursive"
+		android:textSize="20sp"
+		android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+
+</RelativeLayout>

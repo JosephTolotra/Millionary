@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+	<TextView
+android:paddingTop="19dp"
+android:paddingLeft="5dp"
+android:paddingBottom="5dp"
+android:background="#ff00aaff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+android:textSize="20sp"
+		android:textStyle="bold"
+		android:textColor="#ffffff"
+		android:id="@+id/barse"
+        android:text="@string/app_name" 
+		style="@style/Casual"
+	/>
+
+ <TextView
+        android:layout_marginTop="15dp"
+	    android:layout_below="@+id/barse"
+        android:text="setting"
+        android:id="@+id/st"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+		<RadioGroup
+       android:layout_below="@+id/st"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/rd">
+
+								<RadioButton
+									android:id="@+id/rdb"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginTop="10dp"
+									android:layout_marginLeft="20dp"
+									android:text="Manga"
+									android:textColor="@color/primary"
+									android:textSize="20sp"
+									android:textStyle="bold" />
+
+								<RadioButton
+									android:id="@+id/rdr"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginTop="10dp"
+									android:layout_marginLeft="20dp"
+									android:text="mena"
+									android:textColor="@color/colorPrimary2"
+									android:textSize="20sp"
+									android:textStyle="bold" />
+
+								<RadioButton
+									android:id="@+id/rdv"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="20dp"
+									android:layout_marginTop="10dp"
+									android:text="Maitso"
+									android:textColor="@color/colorPrimary3"
+									android:textSize="20sp"
+									android:textStyle="bold" />
+
+				</RadioGroup>
+	
+	
+</RelativeLayout>

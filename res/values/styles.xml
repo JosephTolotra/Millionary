@@ -1,0 +1,180 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Light">
+
+  </style>
+
+   <style name="NoActionBar" parent="AppTheme">
+		<item name="android:windowActionBar">false</item>
+		<item name="android:windowNoTitle">true</item>
+<item name="android:windowFullscreen">true</item>
+	</style> 
+
+<!--    theme    -->
+
+<style name="ThemeBlue">
+        <item name="colorPrimary">@color/colorPrimary</item>
+         <item name="colorToast">@color/toast</item>
+        <item name="background">#ffffff</item>
+        <item name="textSize">15sp</item>
+<item name="white">@color/toast</item>
+  
+    </style>
+
+    <style name="ThemeRed">
+        <item name="colorPrimary">@color/colorPrimary2</item>
+ <item name="colorToast">@color/toast2</item>
+        <item name="background">#999999</item>
+        <item name="textSize">35sp</item>
+<item name="white">@color/white</item>
+
+    </style>
+
+
+   <style name="ThemeGreen">
+        <item name="colorPrimary">@color/colorPrimary3</item>
+ <item name="colorToast">@color/toast3</item>
+        <item name="background">#999999</item>
+        <item name="textSize">35sp</item>
+<item name="white">@color/white</item>
+
+    </style>
+
+
+<!---         ProgressBar.     -->
+
+
+<style name="Widget.MaterialProgressBar.ProgressBar.Horizontal" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+        <!--
+        Disabled for correct behavior on Android 4.x, see
+        https://github.com/android/platform_frameworks_base/commit/911743652b597057a1bd7ef8a921e9ff8dce0f4a#diff-149f45c5ff2d3185bb79688ba17bc432L536
+        <item name="android:progressDrawable">@null</item>
+        -->
+        <item name="android:indeterminateDrawable">@null</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+	</style>
+	
+
+
+
+<!--    custom font    -->
+
+
+<style name="Regular"> 
+<item name="android:fontFamily">sans-serif</item> 
+<item name="android:textStyle">normal</item> 
+
+<item name="android:text">sans-serif</item> 
+      </style> 
+
+<style name="Italic"> 
+<item name="android:fontFamily">sans-serif</item> 
+<item name="android:textStyle">italic</item>
+<item name="android:text">sans-serif</item> 
+
+     </style> 
+
+
+<style name="Bold"> 
+<item name="android:fontFamily">sans-serif</item> 
+<item name="android:textStyle">bold</item>
+<item name="android:text">sans-serif</item> 
+
+       </style> 
+
+<style name="BoldItalic"> 
+<item name="android:fontFamily">sans-serif</item> 
+<item name="android:textStyle">bold|italic</item> 
+<item name="android:text">sans-serif</item> 
+
+       </style> 
+
+        <style name="RegularCondensed"> 
+<item name="android:fontFamily">sans-serif-condensed</item> 
+<item name="android:textStyle">normal</item> 
+<item name="android:text">sans-serif-condensed</item> 
+          
+            </style> 
+
+         <style name="ItalicCondensed"> 
+<item name="android:fontFamily">sans-serif-condensed</item> 
+<item name="android:textStyle">italic</item> 
+<item name="android:text">sans-serif-condensed</item> 
+       
+              </style> 
+   
+          <style name="BoldCondensed"> <item name="android:fontFamily">sans-serif-condensed</item> 
+<item name="android:textStyle">bold</item> 
+
+<item name="android:text">sans-serif-condensed</item> 
+  
+                </style> 
+
+           <style name="Casual"> 
+<item name="android:fontFamily">casual</item>
+ <item name="android:textStyle">normal</item> 
+ 
+<item name="android:text">Casual</item> 
+
+           </style> 
+
+           <style name="Cursive"> 
+<item name="android:fontFamily">cursive</item> 
+<item name="android:textStyle">normal</item> 
+
+<item name="android:text">Cursive</item> 
+
+            </style> 
+          
+           <style name="RegularMono"> 
+<item name="android:fontFamily">monospace</item> 
+<item name="android:textStyle">normal</item>
+ 
+ <item name="android:text">mono space</item>
+       
+            </style> 
+ 
+          <style name="ItalicMono"> 
+<item name="android:fontFamily">monospace</item> 
+<item name="android:textStyle">italic</item> 
+<item name="android:text">monospace</item> 
+
+           </style> 
+
+          <style name="BoldMono"> 
+<item name="android:fontFamily">monospace</item> 
+<item name="android:textStyle">bold</item>
+ 
+ <item name="android:text">monospace</item>
+
+            </style> 
+
+          <style name="RegularMonoSerif"> <item name="android:fontFamily">serif-monospace</item> 
+<item name="android:textStyle">normal</item> 
+
+<item name="android:text">serif-monospace</item> 
+
+            </style>
+
+            <style name="ItalicMonoSerif">
+ <item name="android:fontFamily">serif-monospace</item> 
+<item name="android:textStyle">italic</item>  
+ 
+<item name="android:text">serif-monospace</item> 
+
+             </style> 
+
+             <style name="BoldMonoSerif"> 
+<item name="android:fontFamily">serif-monospace</item> 
+<item name="android:textStyle">bold</item> 
+ 
+<item name="android:text">serif-monospace</item> 
+
+
+             </style>
+
+<!--   end of custom font    -->
+
+</resources>

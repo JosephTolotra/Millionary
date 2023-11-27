@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    >
+	<TextView
+android:paddingTop="19dp"
+android:paddingLeft="5dp"
+android:paddingBottom="5dp"
+android:background="?attr/colorPrimary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+android:textSize="20sp"
+		android:textStyle="bold"
+		android:textColor="#ffffff"
+		android:id="@+id/bar3"
+        android:text="@string/app_name" 
+		style="@style/Casual"
+	/>
+ <TextView
+android:layout_below="@+id/bar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:id="@+id/bs1"
+        android:layout_marginTop="15dp"
+android:layout_marginLeft="15dp"
+        android:text="++ Ny isa farany ambony indrindra dia:" />
+
+<TextView
+android:textSize="20sp" 
+		android:textStyle="bold" 
+		android:textColor="?attr/colorPrimary" 
+		android:gravity="center" 
+	android:layout_below="@+id/bs1"
+        android:layout_marginTop="15dp"
+        
+        android:text="Anarana: Feno \n isa= 7/10        "
+                style="@style/BoldMonoSerif"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bs2"
+  />
+
+  <TextView
+android:layout_below="@+id/bs2"
+android:layout_marginTop="15dp"
+android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:id="@+id/bsi"
+        
+        android:text="++ Ireo telo farany nahazo izany isa ambony izany:" />
+<TextView
+android:layout_marginTop="15dp"
+android:layout_below="@+id/bsi"
+        android:layout_centerHorizontal="true"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:background="#aabbff"
+android:id="@+id/bst1"
+        android:text="" />
+<TextView
+android:layout_centerHorizontal="true"
+android:layout_below="@+id/bst1"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bst2"
+        android:text="" />
+
+<TextView
+android:layout_centerHorizontal="true"
+android:layout_below="@+id/bst2"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bst3"
+        android:text="" />
+<Button
+        android:textColor="?attr/colorPrimary"
+        android:textStyle="bold"
+        android:background="@drawable/ruound1"
+        android:layout_alignParentRight="true"
+		     android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reset"
+        android:text="avaozina"
+                style="@style/Casual"/>
+</RelativeLayout>
